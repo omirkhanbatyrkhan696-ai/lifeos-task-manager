@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Activity" id="activity1">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="laneU" value="Пайдаланушы" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="220" height="1020" as="geometry"/>
+        </mxCell>
+        <mxCell id="laneS" value="Жүйе" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="420" height="1020" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="start" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="135" y="90" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="a1" value="Тапсырмалар тізімін ашу" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" value="Тапсырманы таңдау" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3" value="Орындалды деп белгілеу" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a4" value="Тапсырма күйін тексеру" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="355" y="310" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="d1" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="err" value="Қате хабарламасын көрсету" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="130" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="end2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="a5" value="XP есептеу" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="355" y="520" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a6" value="XP-ді профильге қосу" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="355" y="600" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="d2" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="a7" value="Деңгейді көтеру" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="540" y="700" width="115" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a8" value="Жетістікті тексеру" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="355" y="800" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a9" value="Нәтижені көрсету" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="355" y="880" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="end1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="405" y="960" width="30" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="start" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a4" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" value="[тапсырма орындалмаған]" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;align=left;" edge="1" parent="1" source="d1" target="a5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" value="[бұрын орындалған]" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="d1" target="err"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="err" target="end2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a5" target="a6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a6" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" value="[XP шектен асты]" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="d2" target="a7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" value="[асқан жоқ]" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;align=left;" edge="1" parent="1" source="d2" target="a8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;entryX=1;entryY=0.5;" edge="1" parent="1" source="a7" target="a8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a8" target="a9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="a9" target="end1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
